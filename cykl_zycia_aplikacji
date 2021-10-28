@@ -1,0 +1,59 @@
+-Po pierwszym uruchomieniu aplikacji
+
+2021-10-26 00:26:09.817 11491-11491/com.example.zad1 D/MainActivity: Wywoływane: onCreate
+2021-10-26 00:26:10.037 11491-11491/com.example.zad1 D/MainActivity: Wywoływane: onStart
+2021-10-26 00:26:10.039 11491-11491/com.example.zad1 D/MainActivity: Wywoływane: onResume
+
+
+-Po wciśnięciu przycisku Cofnij
+
+2021-10-26 00:26:14.269 11491-11491/com.example.zad1 D/MainActivity: Wywoływane: onPause
+2021-10-26 00:26:15.128 11491-11491/com.example.zad1 D/MainActivity: Wywoływane: onStop
+2021-10-26 00:26:15.159 11491-11491/com.example.zad1 D/MainActivity: Wywoływane: onDestroy
+
+
+-Po ponownym uruchomieniu aplikacji
+
+2021-10-26 00:26:18.513 11491-11491/com.example.zad1 D/MainActivity: Wywoływane: onCreate
+2021-10-26 00:26:18.800 11491-11491/com.example.zad1 D/MainActivity: Wywoływane: onStart
+2021-10-26 00:26:18.806 11491-11491/com.example.zad1 D/MainActivity: Wywoływane: onResume
+
+
+-Po wciśnięciu przycisku ekranu głównego Home
+
+2021-10-26 00:26:26.318 11491-11491/com.example.zad1 D/MainActivity: Wywoływane: onPause
+2021-10-26 00:26:26.574 11491-11491/com.example.zad1 D/MainActivity: Wywoływane: onStop
+
+
+-Po powrocie do aplikacji z listy ostatnio używanych aplikacji
+
+2021-10-26 00:26:35.241 11491-11491/com.example.zad1 D/MainActivity: Wywoływane: onStart
+2021-10-26 00:26:35.248 11491-11491/com.example.zad1 D/MainActivity: Wywoływane: onResume
+
+
+2021-10-26 10:40:15.737 13902-13902/com.example.zad1 D/MainActivity: Wywoływane: onCreate
+2021-10-26 10:40:15.810 13902-13902/com.example.zad1 D/MainActivity: Wywoływane: onStart
+2021-10-26 10:40:15.811 13902-13902/com.example.zad1 D/MainActivity: Wywoływane: onResume
+2021-10-26 10:40:34.261 13902-13902/com.example.zad1 D/MainActivity: Wywoływane: onPause
+2021-10-26 10:40:34.264 13902-13902/com.example.zad1 D/MainActivity: Wywoływane: onStop
+2021-10-26 10:40:34.265 13902-13902/com.example.zad1 D/MainActivity: Wywoływane: onDestroy
+
+- po obrocie ekranu , nie zachowuje pytania tylko idzie do nastepnego, uruchamiajac ponownie wszystko:
+2021-10-26 10:40:34.296 13902-13902/com.example.zad1 D/MainActivity: Wywoływane: onCreate
+2021-10-26 10:40:34.343 13902-13902/com.example.zad1 D/MainActivity: Wywoływane: onStart
+2021-10-26 10:40:34.344 13902-13902/com.example.zad1 D/MainActivity: Wywoływane: onResume
+
+
+2021-10-26 10:52:25.012 14312-14312/com.example.zad1 D/MainActivity: Wywoływane: onCreate
+2021-10-26 10:52:25.446 14312-14312/com.example.zad1 D/MainActivity: Wywoływane: onStart
+2021-10-26 10:52:25.447 14312-14312/com.example.zad1 D/MainActivity: Wywoływane: onResume
+2021-10-26 10:52:50.194 14312-14312/com.example.zad1 D/MainActivity: Wywoływane: onPause
+2021-10-26 10:52:50.197 14312-14312/com.example.zad1 D/MainActivity: Wywoływane: onStop
+2021-10-26 10:52:50.200 14312-14312/com.example.zad1 D/MainActivity: Wywoływane: onSaveInstanceState
+2021-10-26 10:52:50.200 14312-14312/com.example.zad1 D/MainActivity: Wywoływane: onDestroy
+
+- po zmianach, obracamy ekran i wszystko jest zachowane:
+2021-10-26 10:52:50.251 14312-14312/com.example.zad1 D/MainActivity: Wywoływane: onCreate
+2021-10-26 10:52:50.323 14312-14312/com.example.zad1 D/MainActivity: Wywoływane: onStart
+2021-10-26 10:52:50.324 14312-14312/com.example.zad1 D/MainActivity: Wywoływane: onResume
+

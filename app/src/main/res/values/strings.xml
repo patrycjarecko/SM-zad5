@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Zad1</string>
+
+    <string name="correct_answer">Brawo!</string>
+    <string name="incorrect_answer">Źle!</string>
+
+    <string name="button_true">Prawda</string>
+    <string name="button_false">Falsz</string>
+    <string name="button_next">Nastepne</string>
+
+    <string name="q_sun">Słońce jest żółte</string>
+    <string name="q_sky">Niebo jest fioletowe</string>
+    <string name="q_grass">Trawa jest zielona</string>
+    <string name="q_rainbow">Tęcza jest kolorowa</string>
+    <string name="q_orange">Pomarańcza jest różowa</string>
+
+
+
+    <string name="answer_q_text_view">Czy na pewno chcesz zobaczyć odpowiedz?</string>
+    <string name="button_show_answer">Odpowiedź</string>
+
+    <string name="button_show_clue">Pokaż podpowiedź</string>
+    <string name="answer_was_shown">Oszukujesz! Opowiedź była już wyświetlona.</string>
+
+</resources>
